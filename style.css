@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+  }
+  
+  body.dark {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  #box {
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+  }
+  
+  .animate {
+    transform: rotate(360deg) scale(1.5);
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: deepskyblue;
+  }
+  
